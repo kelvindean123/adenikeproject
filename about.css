@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    position: sticky;
+    top: 0;
+
+}
+header img{
+    width: 80px;
+    background-color: #fff;
+    margin-left: 20px;
+    padding: 8px 10px;
+}
+header ul{
+    display: flex;
+    color: green;
+    font-size: 25px;
+    font-weight: 800px;
+    padding: 20px 30px;
+    margin-left: 25px;
+}
+ul li{
+    margin-left: 10px;
+    list-style: none;
+    text-decoration: none;
+    color: green;
+}
+.home{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+}
+.home1{
+    width: 100%;
+    height: 50vh;
+   line-height: 3rem;   
+   color: white; 
+   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url(/best_choice_images/whie\ wom.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+.home h3{
+    font-size: 30px;
+    font-weight: 900;
+}
+.home h1{
+    font-size: 50px;
+    font-weight: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home p{
+    font-size: 20px;
+}
+.buttons button{
+    padding: 13px 33px;
+    font-size: 15px;
+    color: #fff;
+    border: none;
+}
+.one{
+    background-color: red;
+}
+.two{
+    background-color: green;
+}
+.content{
+    width: 100%;
+    display: flex;
+}
+.about{
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 25px 20px;
+}
+.left{
+    width: 100%;
+    display: flex;
+    
+}
+.text{
+    flex-direction: column;
+}
+.about .top{
+    text-align: center;
+    padding: 10px 20px;
+}
+.about .content.left .welcome{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 10px 5px;
+}
+.about .right{
+    width: 30%;
+}
+.left p{
+    width: 80%;
+    font-size: 20px;
+    line-height: 1.2em;
+    align-items: start;
+}
+.ceo{
+    width: 50%;
+    margin-right: 200px;
+}
+.ceo img{
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    margin-right: 100px;
+}
+.welcome{
+    font-size: 25px;
+    color: darkgreen;
+}
+.price{
+    color: darkgreen;
+    font-size: 1.3em;
+}
+.pro h3{
+    font-size: 1.5em;
+    color: #000;
+}
+.right input{
+    padding: 10px 50px;
+    margin-bottom: 20px;
+    color: black;
+    font-size: 14px;
+    background-color: transparent;
+    border: 1px solid #000;
+}
+.right .opt{
+    font-size: 18px;
+    line-height: 1.5em;
+}
+input{
+    padding: 5px 8px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    border-color: 1px solid black;
+    /* margin-left: 5px; */
+    
+}
+.input1{
+    padding: 15px 8px;
+    /* justify-content: right; */
+    margin-top: 5px;
+    width: 50%;
+    font-size: 15px;
+    
+}
+.message{
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 900px;
+    font-family: cursive;
+}
+.message h1{
+    font-size: 30px;
+    color: Green;
+    font-family:fantasy;
+}
+.yourmessage{
+    padding: 10px 9px;
+}
+.yourmessage textarea{
+    width: 50%;
+    height: 55%;
+}
+.message button{
+    padding: 10px 10px;
+    background-color: darkgreen;
+    font-size: 15px;
+    color: white;
+}
+.blog{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding: 20px 15px;
+}
+.one1{
+    width: 40%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+}
+.two2 h1{
+    font-size: 25px;
+    color: darkgreen;
+    padding: 15px 10px;
+}
+.two2{
+    font-size: 18px;
+}
+.que{
+    font-size: 20px;
+}
+.two2 p{
+
+    width: 60%;
+}
+@media screen {
+    
+}
+
+.fa-facebook{
+    color: blue !important;
+}
+
+.fa-instagram{
+    color: pink;
+}
